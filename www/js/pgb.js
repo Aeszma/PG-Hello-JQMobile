@@ -18,3 +18,10 @@ function deviceInfo() {
 
 	document.getElementById("deviceDetails").innerHTML = info;	
 }
+
+function personalInfo() {
+
+	info =  'Cos tam. Cos tm. Cos tam.';
+
+	document.getElementById("deviceDetails").innerHTML = info;	
+}
