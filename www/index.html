@@ -10,21 +10,28 @@
 	</head>
 	<body onload="init()">
 		
-		<!-- My app main page -->
+		<!-- My app main page --> 
 		<div data-role="page" id="pageone">
 		  <div data-role="header">
-			<h1>GUI</h1>
+			<h1>Business card</h1>
 		  </div>
 		  <div data-role="main" class="ui-content">
-			<p>The graphical user interface (GUI), is a type of user interface that allows users to interact with electronic devices through graphical icons and visual indicators such as secondary notation, instead of text-based user interfaces, typed command labels or text navigation. GUIs were introduced in reaction to the perceived steep learning curve of command-line interfaces (CLIs), which require commands to be typed on a computer keyboard.
+			<p>
+				Name and surname: Dorota Czaicka</br>
+				Email address: xyz@gmail.com</br>
+				Field of study: Applied Informatics<br>
 			</p>
-			<!-- <a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="deviceInfo()">Let me introduce myself!</a> -->
+			<a href="#otherPage" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="personalInfo()">Interests</a>
 		  </div>
 		  <div data-role="footer" data-position="fixed">
 			<h1>(c) Dorota Czaicka</h1>
 		  </div> 
 		</div> 
 		
+		<div data-role="page" id="otherPage">
+		<p>Cos tam. Cos tm. Cos tam.</p>
+		<a href="#pageone" class="ui-btn">Back</a>
+		</div>
 		<!-- Mobile device details page -->
 		<div data-role="page" id="details" data-dialog="true">
 			<div data-role="header" data-theme="a">
